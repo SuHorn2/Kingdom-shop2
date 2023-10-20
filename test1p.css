@@ -1,0 +1,2017 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x:hidden;
+    background-color: rgba(255, 255, 255, 0.692) ;
+    
+}
+.firstmenu{
+    background-color: rgb(98, 31, 160);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin-top: 0;
+    opacity: 1;
+}
+.firstmenu .slide{
+    background-color: rgb(42, 165, 73);
+    width: 90px; 
+    height: 60px;
+    margin-top: 6px;
+   margin-left: 9px;
+}
+.firstmenu .slide img{
+    width: 100%;
+    height: 100%;
+}
+.firstmenu .locate{
+    color: white;
+    /* background-color: blueviolet; */
+    width: 7%;
+    height: 60px;
+    margin-top: 6px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstmenu .locate .locate1{
+    width: 100%;
+    height: 70%;
+    /* background-color: brown; */
+   
+}
+.firstmenu .locate .locate1 h1{
+  font-weight: 200;
+}
+.firstmenu .locate .locate2{
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(42, 165, 97); */
+}
+.firstmenu .search-box {
+     margin-top: 5px;
+    margin-left: 50px;
+}
+.firstmenu .search-box .input-1{
+    /* padding:21px 500px ; */
+    width: 1200px;
+    height: 60px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 14px;
+}
+.firstmenu .search-box .search{
+    /* padding: 20px; */
+    height: 60px;
+    width: 100px;
+    padding: 21px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.firstmenu .search-box .sign{
+    /* padding: 22px 60px; */
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* .firstmenu .order{
+    background-color: rgb(0, 255, 200);
+    width: 5%;
+    height: 84%;
+    margin-top: 6px;
+    margin-left: 10px;
+} */
+
+.secondmenu{
+    background-color: rgb(67, 21, 110);
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    z-index: 9;
+    top: 0;
+}
+.signin{
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10;
+     /* position: absolute; */
+    background-color: rgb(98, 31, 160);
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+   display: none; 
+   margin: auto;
+   margin-top: 20px;
+}
+.signinbefor{
+    display: block;
+}
+.signin .signinbefor .signin-name{
+   margin-left: 50px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 7px;
+    margin-top: 5px;
+}
+.signin .signinbefor .signin-email{
+    margin-left: 50px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 7px;
+    margin-top: 10px;
+}
+.signin .signinbefor .signin-password{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 50px;
+    padding-left: 7px;
+    margin-top: 10px;
+}
+.signin .signinbefor .signin-button{
+    width: 400px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signin .signinbefor .signin-text{
+    color: white;
+    padding-top: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+  
+   
+}
+.signin .signinbefor .signin-cancel{
+    width: 400px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(156, 53, 53);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signin .signinafter{
+    display: block;
+}
+.signinafter-btt{
+    display: none;
+}
+.signin .signinafter .signinafter1{
+    color: white;
+    margin-left: 170px;
+    padding-top: 150px;
+}
+.signin .signinafter h2{
+    margin-left: 17px;
+}
+.signin .signinafter .signinafter1 button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.secondmenu{
+    display: flex;
+    opacity: 1;
+}
+.secondmenu .bar i{
+    color: white;
+    width: 9px;
+    margin-top: 11px;
+   margin-left: 11px;
+   cursor: pointer;
+}
+.navbar-nav{
+   
+    display: flex;
+    list-style-type: none;
+}
+.navbar-nav .nav-link{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   
+}
+.navbar-nav .nav-item{
+     margin-top: 10px;
+}
+.wrapper{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 1200px; 
+    align-items: center;
+    min-height: 40vh;
+    margin: auto;
+    opacity: 1;
+}
+.wrapper .carousel i{
+    top: 50%;
+    width: 49px;
+    height: 46px;
+    background-color: white;
+    position: absolute;
+    font-size: 1.2rem;
+    cursor: pointer;
+    /* text-align: center; */
+    padding-left: 11px;
+    padding-bottom: 3.5%;
+    line-height: 46px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    border: 5px solid blueviolet;
+    /* scroll-behavior: smooth; */
+}
+.wrapper .caroleft i{
+    right: -23px;
+}
+.wrapper .caroright i{
+    left: -23px;
+}
+.wrapper .carousel .img_caro{
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0;  
+    scroll-behavior: smooth;
+}
+.wrapper .carousel .img_caro img{
+  width: calc(100%/3);
+  height: 340px;
+  object-fit: cover;
+  margin-left: 14px; 
+  
+}
+.wrapper .carousel .img_caro img:first-child{
+    margin-left: 0%;
+}
+@media screen and ( max-width: 900px){
+    .wrapper .carousel .img_caro img{
+        width: calc(100%/2);
+    }
+}
+@media screen and ( max-width: 550px){
+    .wrapper .carousel .img_caro img{
+        width: 100%;
+    }
+}
+.main{
+    opacity: 1;
+}
+.boxmain1{
+    /* background-color: blueviolet; */
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxmain1 .boxmain1_1{
+    width: 24%;
+    height: 100%;
+    padding: 10px;
+    /* background-color: rgb(138, 71, 71); */
+    padding: 1;
+    box-shadow: 1px 1px 5px gray;
+}
+.boxmain1 .boxmain1_1 .boxmain1_1img{
+    width: 100%;
+    height: 75%;
+    /* background-color: blue; */
+}
+.boxmain1 .boxmain1_1 .boxmain1_1txt{
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(0, 247, 255); */
+}
+.boxmain1 .boxmain1_1 .boxmain1_btt{
+    margin-left: 70%;
+}
+.boxmain1 .boxmain1_1 .boxmain1_1img img{
+    width: 100%;
+    height: 100%;
+}
+.boxmain1 .boxmain1_1 .boxmain1_btt a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.boxmain2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    height: 390px;
+    background-color:white;
+    margin: auto;
+    /* display: flex; */
+    margin-top: 15px;
+    /* justify-content: space-around; */
+    box-shadow: 1px 1px 5px gray;
+   
+}
+.boxmain2 .boxcolor2{
+    background-color: blueviolet;
+    width: 100%;
+    height: 30px;
+}
+.boxmain2 .boxcolor2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 10px;
+    margin-top: 8px;
+    padding-top: 7px;
+}
+.boxmain2 .boxmainbig2{
+    display: flex;
+    justify-content: space-around;
+}
+.boxmain2 .boxmainbig2 .boxmain2_1{
+    width: 24%;
+    height:340px;
+    padding: 10px;
+    padding: 1px;
+    /* background-color: blue; */
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 5px gray;
+    margin: 10px;
+}
+.boxmain2 .boxmainbig2 .boxmain2_1 .boxmain2_1img{
+    width: 97%;
+    height: 71%;
+    background-color: rgb(54, 54, 119);
+    margin: 4px;
+}
+
+.boxmain2 .boxmainbig2 .boxmain2_1 .boxmain2_1img img{
+    width: 100%;
+    height: 100%;
+}
+.boxmain2 .boxmainbig2 .boxmain2_1 .boxmain2_1txt{
+    width: 97%;
+    height: 15%;
+    margin: 4px 4px;
+    /* background-color: rgb(51, 255, 0); */
+}
+.boxmain2 .boxmainbig2 .boxmain2_1 .boxmain2_add{
+    /* background-color: gold; */
+    width: 97%;
+    height: 9%;
+    margin: 4px 4px;
+    display: flex;
+}
+.boxmain2 .boxmainbig2 .boxmain2_1  .boxmain2_add .add2{
+    width: 50px;
+    margin-left: 60%;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.boxmain2 .boxmainbig2 .boxmain2_1  .boxmain2_add .mainprice2{
+    margin-top: 6px;
+    margin-left: 2px;
+}
+
+.boxmain3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    height: 390px;
+    background-color:white;
+    margin: auto;
+    /* display: flex; */
+    margin-top: 15px;
+    /* justify-content: space-around; */
+    box-shadow: 1px 1px 5px gray;
+   
+}
+.boxmain3 .boxcolor3{
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+}
+.boxmain3 .boxcolor3 p{
+    color: white;
+    margin: 1px 2px 5px 4px;
+    padding-top: 7px;
+}
+.boxmain3 .boxmainbig3{
+    display: flex;
+    justify-content: space-around;
+}
+.boxmain3 .boxmainbig3 .boxmain3_1{
+    width: 24%;
+    height:340px;
+    padding: 10px;
+    padding: 1px;
+    /* background-color: blue; */
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 5px gray;
+    margin: 10px;
+}
+.boxmain3 .boxmainbig3 .boxmain3_1 .boxmain3_1img{
+    width: 97%;
+    height: 71%;
+    background-color: rgb(54, 54, 119);
+    margin: 4px;
+}
+
+.boxmain3 .boxmainbig3 .boxmain3_1 .boxmain3_1img img{
+    width: 100%;
+    height: 100%;
+}
+.boxmain3 .boxmainbig3 .boxmain3_1 .boxmain3_1txt{
+    width: 97%;
+    height: 15%;
+    margin: 4px 4px;
+    /* background-color: rgb(51, 255, 0); */
+}
+.boxmain3 .boxmainbig3 .boxmain3_1 .boxmain3_add{
+    /* background-color: gold; */
+    width: 97%;
+    height: 9%;
+    margin: 4px 4px;
+    display: flex;
+}
+.boxmain3 .boxmainbig3 .boxmain3_1  .boxmain3_add .add3{
+    width: 50px;
+    margin-left: 60%;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.boxmain3 .boxmainbig3 .boxmain3_1  .boxmain3_add .mainprice3{
+    margin-top: 6px;
+    margin-left: 2px;
+}
+.boxmain4{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    height: 390px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    margin: auto;
+    /* display: flex; */
+    margin-top: 15px;
+    /* justify-content: space-around; */
+    box-shadow: 1px 1px 5px gray;
+   
+}
+.boxmain4 .boxcolor4{
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+}
+.boxmain4 .boxcolor4 p{
+    color: white;
+   margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7px;
+}
+.boxmain4 .boxmainbig4{
+    display: flex;
+    justify-content: space-around;
+}
+.boxmain4 .boxmainbig4 .boxmain4_1{
+    width: 24%;
+    height:340px;
+    padding: 10px;
+    padding: 1px;
+    /* background-color: blue; */
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 5px gray;
+    margin: 10px;
+}
+.boxmain4 .boxmainbig4 .boxmain4_1 .boxmain4_1img{
+    width: 97%;
+    height: 71%;
+    background-color: rgb(54, 54, 119);
+    margin: 4px;
+}
+
+.boxmain4 .boxmainbig4 .boxmain4_1 .boxmain4_1img img{
+    width: 100%;
+    height: 100%;
+}
+.boxmain4 .boxmainbig4 .boxmain4_1 .boxmain4_1txt{
+    width: 97%;
+    height: 15%;
+    margin: 4px 4px;
+    /* background-color: rgb(51, 255, 0); */
+}
+.boxmain4 .boxmainbig4 .boxmain4_1 .boxmain4_add{
+    /* background-color: gold; */
+    width: 97%;
+    height: 9%;
+    margin: 4px 4px;
+    display: flex;
+}
+.boxmain4 .boxmainbig4 .boxmain4_1  .boxmain4_add .add4{
+    width: 50px;
+    margin-left: 60%;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.boxmain4 .boxmainbig4 .boxmain4_1  .boxmain4_add .mainprice4{
+    margin-top: 6px;
+    margin-left: 2px;
+}
+.boxmain5{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    height: 390px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    margin: auto;
+    /* display: flex; */
+    margin-top: 15px;
+    /* justify-content: space-around; */
+    box-shadow: 1px 1px 5px gray;
+   
+}
+.boxmain5 .boxcolor5{
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+}
+.boxmain5 .boxcolor5 p{
+    color: white;
+   margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7px;
+}
+.boxmain5 .boxmainbig5{
+    display: flex;
+    justify-content: space-around;
+}
+.boxmain5 .boxmainbig5 .boxmain5_1{
+    width: 24%;
+    height:340px;
+    padding: 10px;
+    padding: 1px;
+    /* background-color: blue; */
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 5px gray;
+    margin: 10px;
+}
+.boxmain5 .boxmainbig5 .boxmain5_1 .boxmain5_1img{
+    width: 97%;
+    height: 71%;
+    background-color: rgb(54, 54, 119);
+    margin: 4px;
+}
+
+.boxmain5 .boxmainbig5 .boxmain5_1 .boxmain5_1img img{
+    width: 100%;
+    height: 100%;
+}
+.boxmain5 .boxmainbig5 .boxmain5_1 .boxmain5_1txt{
+    width: 97%;
+    height: 15%;
+    margin: 4px 4px;
+    /* background-color: rgb(51, 255, 0); */
+}
+.boxmain5 .boxmainbig5 .boxmain5_1 .boxmain5_add{
+    /* background-color: gold; */
+    width: 97%;
+    height: 9%;
+    margin: 4px 4px;
+    display: flex;
+}
+.boxmain5 .boxmainbig5 .boxmain5_1  .boxmain5_add .add5{
+    width: 50px;
+    margin-left: 60%;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.boxmain5 .boxmainbig5 .boxmain5_1  .boxmain5_add .mainprice5{
+    margin-top: 6px;
+    margin-left: 2px;
+}
+
+.last{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(98, 31, 160);
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last .context{
+    /* background-color: brown; */
+    width: 20%;
+    height: 99%;
+    /* padding: 6%; */
+}
+.last .context .contextname{
+    display: flex;
+    margin-top: 10%;
+}
+.last .context .contextname .contextimg{
+    margin-top: 10px;
+    margin-left: 10px;
+    /* background-color: rgb(33, 185, 53); */
+    width: 50%;
+    height: 150px;
+}
+.last .context .contextname .contextimg img{
+    width: 100%;
+    height: 100%;
+}
+.last .context .contextname .contextlo{
+    margin-top: 10px;
+    margin-left: 10px;
+    /* background-color: aqua; */
+    width: 49%;
+    height: 150px;
+
+}
+.last .context .contextname .contextlo h1{
+    margin-top: 10%;
+    color: white;
+}
+.last .context .contextxt{
+    margin-top: 9%;
+    color: white;
+}
+.last .context .contextxt h2{
+    margin-top: 3%;
+}
+.last .aboutus{
+    /* background-color: brown; */
+    width: 20%;
+    height: 100%;
+    color: white;
+}
+.last .aboutus .aboutushead{
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+.last .aboutus .aboutusbody{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.last .aboutus .aboutusbody p{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.last .our{
+    /* background-color: brown; */
+    width: 20%;
+    height: 100%;
+    color: white;
+}
+.last .our .ourhead{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.last .our p{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+}
+.last .our .ouremail .contextemail {
+    margin-left: 20%;
+    display: flex;
+    list-style-type: none;
+   
+    
+}
+.last .our .ouremail .contextemail li{
+    margin: 5%;
+}
+.head{
+    background-color: blueviolet;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.boxsn1 .boxsn1-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsn1 .boxsn1-1 .smailboxsn1{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    margin: auto;
+    padding:10px;
+    box-shadow: 1px 1px 5px gray;
+}
+.boxsn1 .boxsn1-1 .smailboxsn1 .smailboxsn1img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+
+}
+.boxsn1 .boxsn1-1 .smailboxsn1 .smailboxsn1img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsn1 .boxsn1-1 .smailboxsn1 .smailboxsn1txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsn1 .boxsn1-1 .smailboxsn1 .smailboxsn1add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsn1 .boxsn1-1 .smailboxsn1 .smailboxsn1add .addsn1{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxsn2 .boxsn2-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsn2 .boxsn2-1 .smailboxsn2{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsn2 .boxsn2-1 .smailboxsn2 .smailboxsn2img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsn2 .boxsn2-1 .smailboxsn2 .smailboxsn2img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsn2 .boxsn2-1 .smailboxsn2 .smailboxsn2txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsn2 .boxsn2-1 .smailboxsn2 .smailboxsn2add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsn2 .boxsn2-1 .smailboxsn2 .smailboxsn2add .addsn2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxsn3 .boxsn3-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsn3 .boxsn3-1 .smailboxsn3{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsn3 .boxsn3-1 .smailboxsn3 .smailboxsn3img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsn3 .boxsn3-1 .smailboxsn3 .smailboxsn3img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsn3 .boxsn3-1 .smailboxsn3 .smailboxsn3txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsn3 .boxsn3-1 .smailboxsn3 .smailboxsn3add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsn3 .boxsn3-1 .smailboxsn3 .smailboxsn3add .addsn2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxsn4 .boxsn4-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsn4 .boxsn4-1 .smailboxsn4{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsn4 .boxsn4-1 .smailboxsn4 .smailboxsn4img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsn4 .boxsn4-1 .smailboxsn4 .smailboxsn4img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsn4 .boxsn4-1 .smailboxsn4 .smailboxsn4txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsn4 .boxsn4-1 .smailboxsn4 .smailboxsn4add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsn4 .boxsn4-1 .smailboxsn4 .smailboxsn4add .addsn2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxsn5 .boxsn5-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsn5 .boxsn5-1 .smailboxsn5{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsn5 .boxsn5-1 .smailboxsn5 .smailboxsn5img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsn5 .boxsn5-1 .smailboxsn5 .smailboxsn5img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsn5 .boxsn5-1 .smailboxsn5 .smailboxsn5txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsn5 .boxsn5-1 .smailboxsn5 .smailboxsn5add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsn5 .boxsn5-1 .smailboxsn5 .smailboxsn5add .addsn2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+/* shrit */
+.boxsh1 .boxsh1-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsh1 .boxsh1-1 .smailboxsh1{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    margin: auto;
+    padding:10px;
+    box-shadow: 1px 1px 5px gray;
+}
+.boxsh1 .boxsh1-1 .smailboxsh1 .smailboxsh1img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+
+}
+.boxsh1 .boxsh1-1 .smailboxsh1 .smailboxsh1img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsh1 .boxsh1-1 .smailboxsh1 .smailboxsh1txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsh1 .boxsh1-1 .smailboxsh1 .smailboxsh1add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsh1 .boxsh1-1 .smailboxsh1 .smailboxsh1add .addsh1{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxsh2 .boxsh2-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsh2 .boxsh2-1 .smailboxsh2{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsh2 .boxsh2-1 .smailboxsh2 .smailboxsh2img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsh2 .boxsh2-1 .smailboxsh2 .smailboxsh2img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsh2 .boxsh2-1 .smailboxsh2 .smailboxsh2txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsh2 .boxsh2-1 .smailboxsh2 .smailboxsh2add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsh2 .boxsh2-1 .smailboxsh2 .smailboxsh2add .addsh2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxsh3 .boxsh3-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsh3 .boxsh3-1 .smailboxsh3{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsh3 .boxsh3-1 .smailboxsh3 .smailboxsh3img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsh3 .boxsh3-1 .smailboxsh3 .smailboxsh3img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsh3 .boxsh3-1 .smailboxsh3 .smailboxsh3txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsh3 .boxsh3-1 .smailboxsh3 .smailboxsh3add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsh3 .boxsh3-1 .smailboxsh3 .smailboxsh3add .addsh2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.boxsh4 .boxsh4-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsh4 .boxsh4-1 .smailboxsh4{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsh4 .boxsh4-1 .smailboxsh4 .smailboxsh4img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsh4 .boxsh4-1 .smailboxsh4 .smailboxsh4img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsh4 .boxsh4-1 .smailboxsh4 .smailboxsh4txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsh4 .boxsh4-1 .smailboxsh4 .smailboxsh4add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsh4 .boxsh4-1 .smailboxsh4 .smailboxsh4add .addsh2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxsh5 .boxsh5-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsh5 .boxsh5-1 .smailboxsh5{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsh5 .boxsh5-1 .smailboxsh5 .smailboxsh5img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsh5 .boxsh5-1 .smailboxsh5 .smailboxsh5img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsh5 .boxsh5-1 .smailboxsh5 .smailboxsh5txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsh5 .boxsh5-1 .smailboxsh5 .smailboxsh5add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsh5 .boxsh5-1 .smailboxsh5 .smailboxsh5add .addsh2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+/* sport */
+.boxsp1 .boxsp1-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsp1 .boxsp1-1 .smailboxsp1{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    margin: auto;
+    padding:10px;
+    box-shadow: 1px 1px 5px gray;
+}
+.boxsp1 .boxsp1-1 .smailboxsp1 .smailboxsp1img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+
+}
+.boxsp1 .boxsp1-1 .smailboxsp1 .smailboxsp1img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsp1 .boxsp1-1 .smailboxsp1 .smailboxsp1txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsp1 .boxsp1-1 .smailboxsp1 .smailboxsp1add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsp1 .boxsp1-1 .smailboxsp1 .smailboxsp1add .addsp1{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxsp2 .boxsp2-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsp2 .boxsp2-1 .smailboxsp2{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsp2 .boxsp2-1 .smailboxsp2 .smailboxsp2img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsp2 .boxsp2-1 .smailboxsp2 .smailboxsp2img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsp2 .boxsp2-1 .smailboxsp2 .smailboxsp2txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsp2 .boxsp2-1 .smailboxsp2 .smailboxsp2add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsp2 .boxsp2-1 .smailboxsp2 .smailboxsp2add .addsp2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxsp3 .boxsp3-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsp3 .boxsp3-1 .smailboxsp3{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsp3 .boxsp3-1 .smailboxsp3 .smailboxsp3img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsp3 .boxsp3-1 .smailboxsp3 .smailboxsp3img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsp3 .boxsp3-1 .smailboxsp3 .smailboxsp3txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsp3 .boxsp3-1 .smailboxsp3 .smailboxsp3add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsp3 .boxsp3-1 .smailboxsp3 .smailboxsp3add .addsp2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxsp4 .boxsp4-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsp4 .boxsp4-1 .smailboxsp4{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsp4 .boxsp4-1 .smailboxsp4 .smailboxsp4img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsp4 .boxsp4-1 .smailboxsp4 .smailboxsp4img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsp4 .boxsp4-1 .smailboxsp4 .smailboxsp4txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsp4 .boxsp4-1 .smailboxsp4 .smailboxsp4add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsp4 .boxsp4-1 .smailboxsp4 .smailboxsp4add .addsp2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxsp5 .boxsp5-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.boxsp5 .boxsp5-1 .smailboxsp5{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxsp5 .boxsp5-1 .smailboxsp5 .smailboxsp5img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxsp5 .boxsp5-1 .smailboxsp5 .smailboxsp5img img{
+    width: 100%;
+    height: 100%;
+}
+.boxsp5 .boxsp5-1 .smailboxsp5 .smailboxsp5txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxsp5 .boxsp5-1 .smailboxsp5 .smailboxsp5add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxsp5 .boxsp5-1 .smailboxsp5 .smailboxsp5add .addsp2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+/* computer */
+.boxco1 .boxco1-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: coace-around;
+}
+.boxco1 .boxco1-1 .smailboxco1{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    margin: auto;
+    padding:10px;
+    box-shadow: 1px 1px 5px gray;
+}
+.boxco1 .boxco1-1 .smailboxco1 .smailboxco1img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+
+}
+.boxco1 .boxco1-1 .smailboxco1 .smailboxco1img img{
+    width: 100%;
+    height: 100%;
+}
+.boxco1 .boxco1-1 .smailboxco1 .smailboxco1txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxco1 .boxco1-1 .smailboxco1 .smailboxco1add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxco1 .boxco1-1 .smailboxco1 .smailboxco1add .addco1{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxco2 .boxco2-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: coace-around;
+}
+.boxco2 .boxco2-1 .smailboxco2{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxco2 .boxco2-1 .smailboxco2 .smailboxco2img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxco2 .boxco2-1 .smailboxco2 .smailboxco2img img{
+    width: 100%;
+    height: 100%;
+}
+.boxco2 .boxco2-1 .smailboxco2 .smailboxco2txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxco2 .boxco2-1 .smailboxco2 .smailboxco2add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxco2 .boxco2-1 .smailboxco2 .smailboxco2add .addco2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxco3 .boxco3-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: coace-around;
+}
+.boxco3 .boxco3-1 .smailboxco3{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxco3 .boxco3-1 .smailboxco3 .smailboxco3img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxco3 .boxco3-1 .smailboxco3 .smailboxco3img img{
+    width: 100%;
+    height: 100%;
+}
+.boxco3 .boxco3-1 .smailboxco3 .smailboxco3txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxco3 .boxco3-1 .smailboxco3 .smailboxco3add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxco3 .boxco3-1 .smailboxco3 .smailboxco3add .addco2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxco4 .boxco4-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: coace-around;
+}
+.boxco4 .boxco4-1 .smailboxco4{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxco4 .boxco4-1 .smailboxco4 .smailboxco4img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxco4 .boxco4-1 .smailboxco4 .smailboxco4img img{
+    width: 100%;
+    height: 100%;
+}
+.boxco4 .boxco4-1 .smailboxco4 .smailboxco4txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxco4 .boxco4-1 .smailboxco4 .smailboxco4add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxco4 .boxco4-1 .smailboxco4 .smailboxco4add .addco2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxco5 .boxco5-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: coace-around;
+}
+.boxco5 .boxco5-1 .smailboxco5{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxco5 .boxco5-1 .smailboxco5 .smailboxco5img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxco5 .boxco5-1 .smailboxco5 .smailboxco5img img{
+    width: 100%;
+    height: 100%;
+}
+.boxco5 .boxco5-1 .smailboxco5 .smailboxco5txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxco5 .boxco5-1 .smailboxco5 .smailboxco5add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxco5 .boxco5-1 .smailboxco5 .smailboxco5add .addco2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+/* Electricity */
+.boxel1 .boxel1-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: elace-around;
+}
+.boxel1 .boxel1-1 .smailboxel1{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    margin: auto;
+    padding:10px;
+    box-shadow: 1px 1px 5px gray;
+}
+.boxel1 .boxel1-1 .smailboxel1 .smailboxel1img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+
+}
+.boxel1 .boxel1-1 .smailboxel1 .smailboxel1img img{
+    width: 100%;
+    height: 100%;
+}
+.boxel1 .boxel1-1 .smailboxel1 .smailboxel1txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxel1 .boxel1-1 .smailboxel1 .smailboxel1add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxel1 .boxel1-1 .smailboxel1 .smailboxel1add .addel1{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxel2 .boxel2-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: elace-around;
+}
+.boxel2 .boxel2-1 .smailboxel2{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxel2 .boxel2-1 .smailboxel2 .smailboxel2img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxel2 .boxel2-1 .smailboxel2 .smailboxel2img img{
+    width: 100%;
+    height: 100%;
+}
+.boxel2 .boxel2-1 .smailboxel2 .smailboxel2txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxel2 .boxel2-1 .smailboxel2 .smailboxel2add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxel2 .boxel2-1 .smailboxel2 .smailboxel2add .addel2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxel3 .boxel3-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: elace-around;
+}
+.boxel3 .boxel3-1 .smailboxel3{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxel3 .boxel3-1 .smailboxel3 .smailboxel3img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxel3 .boxel3-1 .smailboxel3 .smailboxel3img img{
+    width: 100%;
+    height: 100%;
+}
+.boxel3 .boxel3-1 .smailboxel3 .smailboxel3txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxel3 .boxel3-1 .smailboxel3 .smailboxel3add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxel3 .boxel3-1 .smailboxel3 .smailboxel3add .addel2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxel4 .boxel4-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: elace-around;
+}
+.boxel4 .boxel4-1 .smailboxel4{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxel4 .boxel4-1 .smailboxel4 .smailboxel4img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxel4 .boxel4-1 .smailboxel4 .smailboxel4img img{
+    width: 100%;
+    height: 100%;
+}
+.boxel4 .boxel4-1 .smailboxel4 .smailboxel4txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxel4 .boxel4-1 .smailboxel4 .smailboxel4add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxel4 .boxel4-1 .smailboxel4 .smailboxel4add .addel2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boxel5 .boxel5-1{
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: elace-around;
+}
+.boxel5 .boxel5-1 .smailboxel5{
+    width: 24%;
+    height: 99%;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    padding:10px;
+}
+.boxel5 .boxel5-1 .smailboxel5 .smailboxel5img{
+    width: 100%;
+    height: 240px;
+    background-color: blueviolet;
+}
+.boxel5 .boxel5-1 .smailboxel5 .smailboxel5img img{
+    width: 100%;
+    height: 100%;
+}
+.boxel5 .boxel5-1 .smailboxel5 .smailboxel5txt{
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.boxel5 .boxel5-1 .smailboxel5 .smailboxel5add{
+    display: flex;
+    margin-left: 70%;
+    color: black;
+}
+.boxel5 .boxel5-1 .smailboxel5 .smailboxel5add .addel2{
+    width: 50px;
+    /* margin-left: 50%; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
